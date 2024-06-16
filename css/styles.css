@@ -6,6 +6,7 @@
   margin: 0;
 }
 .gallery-item {
+  flex-basis: calc(33.333% - 10px);
   margin: 5px;
 }
 .gallery-link {
@@ -14,6 +15,6 @@
 }
 .gallery-image {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
